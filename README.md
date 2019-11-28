@@ -2,7 +2,7 @@
 
 Script que extrae una imagen de https://www.pexels.com/ según el tamaño de la pantalla y la asigna como fondo de pantalla.
 
-### Uso
+## Uso
 En el archivo setWallpapper.py en la llamda a la función **run** se debe pasar como parámetro la dirección absoluta del directorio donde se guardarán las imágenes.
 
 ```python
