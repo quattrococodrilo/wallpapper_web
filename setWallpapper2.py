@@ -1,10 +1,11 @@
-import requests
 from bs4 import BeautifulSoup
+from crud_yaml.crud import CRUD
+from random import choice
+import datetime
+import requests
 import subprocess
 import yaml
-from crud_yaml.crud import CRUD
-import datetime
-# from os import path, system
+from os import path, system
 
 
 class Wallpapper():
@@ -68,6 +69,9 @@ class Wallpapper():
                 info['url'] = data.get(self.image_info['url'], '')
                 info['ratio'] = ''
                 info['used'] = False
+                info['downloaded'] = False
+                info['local_path'] = None
+                info['created'] = None
 
                 if info['size'] and info['size']['width'] > info['size']['height']:
                     if 'video' not in info['title'].lower():
@@ -80,6 +84,9 @@ class Wallpapper():
             self.db._save()
 
     def used_images(self):
+        """
+        ----------------------NOT USED-----------------------------------
+        """
         images_not_used = []
 
     def calculate_aspect(self, width, height):
@@ -125,7 +132,41 @@ class Wallpapper():
             days=self.settings.datas[0]['update_frecuency'])
 
         date_to_compare = previus_date + update_frecuency
-        if date_to_compare == self._get_date_today():
+        if date_to_compare <= self._get_date_today():
             return True
         else:
             return False
+
+    def _random_image(self):
+        not_used_images = self.db.filter(used=False)
+        while True:
+            image_info = choice(not_used_images)
+            if not image_info['used']:
+                return image_info
+    #
+
+    def _download_image(self, image):
+        """Downloads image"""
+        try:
+            if not image['downloaded'] and not image['local_path']:
+                url = image['url'].split('?')[0]
+                name = '{}-{}'.format(image['id'], url.split('/')[-1])
+                image_path = path.join(
+                    self.settings.datas[0]['images_dir'], name)
+                print(url)
+                with open(image_path, 'wb') as img:
+                    img.write(requests.get(url).content)
+                image['local_path'] = image_path
+                image['downloaded'] = True
+                self.db.datas[image['idx']] = image
+                self.db._save()
+                return image_path
+        except Exception as e:
+            print(e)
+            return False
+
+    def set_as_wallpapper(self, path):
+        """Set image as Wallpapper"""
+        if path:
+            system(
+                'gsettings set org.gnome.desktop.background picture-uri file://{}'.format(path))
