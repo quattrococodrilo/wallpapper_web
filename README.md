@@ -17,6 +17,7 @@ if __name__ == '__main__':
 - Usa Python 3
 
 **TODOS**:
-- Agregar a la foto el nombre del autor y su cuenta en pexel
-- Crear una base de datos en YAML para evitar que se repitan las imágenes.
+- ~~Agregar a la foto el nombre del autor y su cuenta en pexel.~~
+- ~~Crear una base de datos en YAML para evitar que se repitan las imágenes.~~
 - Agregar soporte para Windows.
+- Pasar el script a una aplicación de línea de comandos con click
