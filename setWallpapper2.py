@@ -1,11 +1,13 @@
 from bs4 import BeautifulSoup
 from crud_yaml.crud import CRUD
 from random import choice
+from os import path, system
+from wand.image import Image
+from wand.drawing import Drawing
 import datetime
 import requests
 import subprocess
 import yaml
-from os import path, system
 
 
 class Wallpapper():
@@ -48,7 +50,7 @@ class Wallpapper():
 
     def image_containers_extract_data(self):
         """Extract images from web."""
-        if self._compare_date():
+        if self._compare_date() or len(self.db.datas) == 0:
             screen_size = self.screen_size()
             screen_ratio = self.calculate_aspect(
                 screen_size['width'], screen_size['height'])
@@ -138,19 +140,20 @@ class Wallpapper():
             return False
 
     def _random_image(self):
+        """Return a random image"""
         not_used_images = self.db.filter(used=False)
-        while True:
-            image_info = choice(not_used_images)
-            if not image_info['used']:
-                return image_info
-    #
+        return choice(not_used_images)
+        # while True:
+            # image_info = choice(not_used_images)
+            # if not image_info['used']:
+                # return image_info
 
     def _download_image(self, image):
         """Downloads image"""
         try:
             if not image['downloaded'] and not image['local_path']:
                 url = image['url'].split('?')[0]
-                name = '{}-{}'.format(image['id'], url.split('/')[-1])
+                name = image['id']
                 image_path = path.join(
                     self.settings.datas[0]['images_dir'], name)
                 print(url)
@@ -165,8 +168,20 @@ class Wallpapper():
             print(e)
             return False
 
+    def write_img_info(self, img_path, body):
+        with Image(filename = img_path) as img:
+            with Drawing() as draw:
+                draw.font = self.settings.datas[0]['font']
+                draw.font_size = 60
+                draw.fill_color = 'WHITE'
+                draw.text(100, img.height - 100, body)
+                draw(img)
+                img.save(filename=img_path)
+
     def set_as_wallpapper(self, path):
         """Set image as Wallpapper"""
         if path:
             system(
                 'gsettings set org.gnome.desktop.background picture-uri file://{}'.format(path))
+
+    

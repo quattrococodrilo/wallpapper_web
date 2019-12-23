@@ -1,7 +1,8 @@
-- downloaded: true
-  id: 82ecc294-c36c-49bf-b458-f5c92585c849
+- created: null
+  downloaded: true
+  id: b2800af9-989f-4023-a4de-d69e7fa4531c
   idx: 0
-  local_path: /home/quattro/Imágenes/backgrounds2/82ecc294-c36c-49bf-b458-f5c92585c849-pexels-photo-414171.jpeg
+  local_path: /home/quattro/Imágenes/backgrounds2/b2800af9-989f-4023-a4de-d69e7fa4531c
   name: Pixabay
   profile: /@pixabay
   ratio: 600:307
@@ -11,10 +12,11 @@
   title: Top View of Valley Near Body of Water · Free Stock Photo
   url: https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: true
-  id: b3a434b8-a2d0-47f8-a01c-ac3be79a3a4b
+- created: null
+  downloaded: true
+  id: cd88bedc-41d1-49c5-83fc-be71ade2562d
   idx: 1
-  local_path: /home/quattro/Imágenes/backgrounds2/b3a434b8-a2d0-47f8-a01c-ac3be79a3a4b-pexels-photo-747964.jpeg
+  local_path: /home/quattro/Imágenes/backgrounds2/cd88bedc-41d1-49c5-83fc-be71ade2562d
   name: Simon Migaj
   profile: /@simonmigaj
   ratio: 160:101
@@ -24,21 +26,23 @@
   title: Person on a Bridge Near a Lake · Free Stock Photo
   url: https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 366afd6d-89a7-4425-99cb-888855b6db23
+- created: null
+  downloaded: false
+  id: b7cb3ca4-d5c0-4dd1-96c3-7f59c9173ef9
   idx: 2
   local_path: null
-  name: veeterzy
-  profile: /@veeterzy
-  ratio: 3859:2574
+  name: Bri Schneiter
+  profile: /@bri-schneiter-28802
+  ratio: '3:2'
   size:
-    height: 5148
-    width: 7718
-  title: Road Between Pine Trees · Free Stock Photo
-  url: https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+    height: 4000
+    width: 6000
+  title: Calm Body of Lake Between Mountains · Free Stock Photo
+  url: https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 14fbf460-abb9-4916-86ba-aa2e912e13bc
+- created: null
+  downloaded: false
+  id: e5249d10-8527-49c3-b1f5-9f162619d1cb
   idx: 3
   local_path: null
   name: Pixabay
@@ -50,8 +54,9 @@
   title: Scenic View of Rice Paddy · Free Stock Photo
   url: https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 1a9e590d-8969-4d83-9e1c-68eba05dfcd1
+- created: null
+  downloaded: false
+  id: 67db5b30-5485-491d-8baa-24413613333b
   idx: 4
   local_path: null
   name: Ian Turnell
@@ -63,8 +68,9 @@
   title: Body of Water Between Green Leaf Trees · Free Stock Photo
   url: https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 670c2bd0-9ba2-4f07-97d3-c51138aef70d
+- created: null
+  downloaded: false
+  id: a28f85ba-cdef-4bb4-8059-cb2a921742a6
   idx: 5
   local_path: null
   name: Pixabay
@@ -76,8 +82,9 @@
   title: Brown Wooden Dock · Free Stock Photo
   url: https://images.pexels.com/photos/462024/pexels-photo-462024.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 94f6ea6e-f8c2-4f32-9319-0e06b36bd996
+- created: null
+  downloaded: false
+  id: e53478c4-803f-444e-b07c-81712d32593e
   idx: 6
   local_path: null
   name: Pixabay
@@ -89,8 +96,9 @@
   title: View of Elephant in Water · Free Stock Photo
   url: https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 95a46baa-eb9e-42d3-b275-4b6de297a108
+- created: null
+  downloaded: false
+  id: b77ff0f3-5aa6-40e6-b37f-30c7cb217dda
   idx: 7
   local_path: null
   name: Pixabay
@@ -102,10 +110,11 @@
   title: Green Leafed Trees · Free Stock Photo
   url: https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 080cbc65-fdcb-471f-a1bb-d329524ab8d1
+- created: null
+  downloaded: true
+  id: b13d2471-2b69-4bf9-9525-77e4090cd2b1
   idx: 8
-  local_path: null
+  local_path: /home/quattro/Imágenes/backgrounds2/b13d2471-2b69-4bf9-9525-77e4090cd2b1
   name: Pixabay
   profile: /@pixabay
   ratio: 5105:2871
@@ -115,10 +124,11 @@
   title: Scenic View of Sea Against Sky at Sunset · Free Stock Photo
   url: https://images.pexels.com/photos/258109/pexels-photo-258109.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: true
-  id: 91f8db00-ce4b-42db-b4ed-6437b32ac846
+- created: null
+  downloaded: false
+  id: 44416275-72f8-4856-a193-1ad0f7131768
   idx: 9
-  local_path: /home/quattro/Imágenes/backgrounds2/91f8db00-ce4b-42db-b4ed-6437b32ac846-pexels-photo-540518.jpeg
+  local_path: null
   name: Billel Moula
   profile: /@billelmoula
   ratio: 3008:1653
@@ -128,8 +138,9 @@
   title: Black and Teal Mountain · Free Stock Photo
   url: https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 7616a39c-985c-455f-a1c1-93bb420acbd1
+- created: null
+  downloaded: false
+  id: 22a3f75b-5493-4222-a239-ce6b379d014b
   idx: 10
   local_path: null
   name: Pok Rie
@@ -141,10 +152,11 @@
   title: Seaport during Daytime · Free Stock Photo
   url: https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 8172a210-3e27-48b3-ac36-0f6b0da096ff
+- created: null
+  downloaded: true
+  id: c7a88922-a84a-47e0-b37b-eb5b25f16877
   idx: 11
-  local_path: null
+  local_path: /home/quattro/Imágenes/backgrounds2/c7a88922-a84a-47e0-b37b-eb5b25f16877
   name: Efdal YILDIZ
   profile: /@efdal-yildiz-325089
   ratio: 1689:1241
@@ -154,21 +166,23 @@
   title: Flock Of Birds · Free Stock Photo
   url: https://images.pexels.com/photos/917494/pexels-photo-917494.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: true
-  id: 109f8b85-243a-4aca-90cb-d278e296ea25
+- created: null
+  downloaded: false
+  id: 41f5ba14-63f9-4d75-a006-fac1af0b72a5
   idx: 12
-  local_path: /home/quattro/Imágenes/backgrounds2/109f8b85-243a-4aca-90cb-d278e296ea25-pexels-photo-346529.jpeg
-  name: Bri Schneiter
-  profile: /@bri-schneiter-28802
-  ratio: '3:2'
+  local_path: null
+  name: veeterzy
+  profile: /@veeterzy
+  ratio: 3859:2574
   size:
-    height: 4000
-    width: 6000
-  title: Calm Body of Lake Between Mountains · Free Stock Photo
-  url: https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+    height: 5148
+    width: 7718
+  title: Road Between Pine Trees · Free Stock Photo
+  url: https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: eaac1a13-3538-478b-82ba-32b7f9414fef
+- created: null
+  downloaded: false
+  id: 6ea2fc57-b1b0-4cf5-bd9e-e7a796e6a909
   idx: 13
   local_path: null
   name: Pixabay
@@ -181,8 +195,9 @@
     Ranges · Free Stock Photo
   url: https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 45cb4eeb-3979-4cba-9ec2-8d94548d2bf0
+- created: null
+  downloaded: false
+  id: 35bf6f1f-ab9b-4fd8-8264-04585da1c07c
   idx: 14
   local_path: null
   name: Pixabay
@@ -194,8 +209,9 @@
   title: Time Lapse Photography of Waterfalls during Sunset · Free Stock Photo
   url: https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: e08d28c0-d84c-47bb-98bb-f716b3d73ea9
+- created: null
+  downloaded: false
+  id: 3477d225-b9cd-4e03-acf7-0d7109745557
   idx: 15
   local_path: null
   name: Pixabay
@@ -207,21 +223,23 @@
   title: Gray Asphalt Road Surrounded by Tall Trees · Free Stock Photo
   url: https://images.pexels.com/photos/531321/pexels-photo-531321.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 63b2836b-01c7-43d8-88cc-df4ac7f2f4c6
+- created: null
+  downloaded: false
+  id: a65eb537-260d-4ac8-b32b-da6fd1c1d097
   idx: 16
   local_path: null
   name: Pixabay
   profile: /@pixabay
-  ratio: 2000:1123
+  ratio: 2201:1467
   size:
-    height: 1123
-    width: 2000
-  title: Green Hill Near Body of Water · Free Stock Photo
-  url: https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+    height: 1467
+    width: 2201
+  title: Dock Under Cloudy Sky in Front of Mountain · Free Stock Photo
+  url: https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: f20e81b8-54a7-4133-a3ad-1e0fe3aefc85
+- created: null
+  downloaded: false
+  id: 2ea2d7c1-063b-487e-8806-7f608f763633
   idx: 17
   local_path: null
   name: Pixabay
@@ -233,8 +251,9 @@
   title: Close Up of Leaf · Free Stock Photo
   url: https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: a330efc7-24b9-4e15-b986-c2b6fcb00538
+- created: null
+  downloaded: false
+  id: 15fb98ce-0a37-4e5d-b47b-488c58c1444c
   idx: 18
   local_path: null
   name: Pixabay
@@ -246,10 +265,11 @@
   title: Green Mountains and Flowing River · Free Stock Photo
   url: https://images.pexels.com/photos/206660/pexels-photo-206660.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: true
-  id: 504470e6-ba43-4630-b141-998befacc0d1
+- created: null
+  downloaded: false
+  id: 868939c3-6738-4dc0-9ab5-118d95af0872
   idx: 19
-  local_path: /home/quattro/Imágenes/backgrounds2/504470e6-ba43-4630-b141-998befacc0d1-pexels-photo-691668.jpeg
+  local_path: null
   name: eberhard grossgasteiger
   profile: /@eberhardgross
   ratio: '3:2'
@@ -259,8 +279,9 @@
   title: Landscape Photography of Mountains Covered in Snow · Free Stock Photo
   url: https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: f8cb65a3-f65b-44ea-87b7-72b52c22209a
+- created: null
+  downloaded: false
+  id: de1cc8a2-f071-46b5-bfe8-d3db1d50c52b
   idx: 20
   local_path: null
   name: Martin Damboldt
@@ -272,8 +293,9 @@
   title: Gray Bridge and Trees · Free Stock Photo
   url: https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: b182f7d0-bf07-4da5-a399-0eea65baaad4
+- created: null
+  downloaded: false
+  id: 945c71d8-9659-4ad9-8d9c-92c9c6c8db63
   idx: 21
   local_path: null
   name: Pixabay
@@ -285,10 +307,11 @@
   title: Silhouette of Tree Near Body of Water during Golden Hour · Free Stock Photo
   url: https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 4a69565d-d50b-4e61-8a78-d2b77d23c3b8
+- created: null
+  downloaded: true
+  id: fd07207f-83c8-41d5-8729-e980fc23cb2f
   idx: 22
-  local_path: null
+  local_path: /home/quattro/Imágenes/backgrounds2/fd07207f-83c8-41d5-8729-e980fc23cb2f
   name: Ákos Szabó
   profile: /@akos-szabo-145938
   ratio: 4831:2548
@@ -298,8 +321,9 @@
   title: Panoramic Photography of Green Field · Free Stock Photo
   url: https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 37f6f60f-bb46-4040-ba10-9db3ffe6fe1e
+- created: null
+  downloaded: false
+  id: 7786a585-417b-4ed1-b7fd-2ecb886ea14f
   idx: 23
   local_path: null
   name: Pixabay
@@ -311,8 +335,9 @@
   title: Trees Near Body of Water · Free Stock Photo
   url: https://images.pexels.com/photos/371589/pexels-photo-371589.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 8f122491-13bc-4409-868b-6eb0f62b3125
+- created: null
+  downloaded: false
+  id: a1194c1e-61f3-4fb5-a9bb-3d45ffdcfba2
   idx: 24
   local_path: null
   name: Pixabay
@@ -324,21 +349,23 @@
   title: Black Mountains Under the Stars at Nighttime · Free Stock Photo
   url: https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: true
-  id: 93437720-5f73-4ef1-82df-ae4d0b911fa6
+- created: null
+  downloaded: true
+  id: 6a0706b0-3cec-4574-bcab-fa19bf1b3212
   idx: 25
-  local_path: /home/quattro/Imágenes/backgrounds2/93437720-5f73-4ef1-82df-ae4d0b911fa6-pexels-photo-206359.jpeg
+  local_path: /home/quattro/Imágenes/backgrounds2/6a0706b0-3cec-4574-bcab-fa19bf1b3212
   name: Pixabay
   profile: /@pixabay
-  ratio: 2201:1467
+  ratio: 2000:1123
   size:
-    height: 1467
-    width: 2201
-  title: Dock Under Cloudy Sky in Front of Mountain · Free Stock Photo
-  url: https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+    height: 1123
+    width: 2000
+  title: Green Hill Near Body of Water · Free Stock Photo
+  url: https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 66c82183-ba39-4730-bd09-1d59d7c4c156
+- created: null
+  downloaded: false
+  id: 345a5ce6-8aaa-4e08-bc13-e53a9ff830c4
   idx: 26
   local_path: null
   name: Pixabay
@@ -350,10 +377,11 @@
   title: Panoramic View of Sea Against Blue Sky · Free Stock Photo
   url: https://images.pexels.com/photos/248771/pexels-photo-248771.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: true
-  id: 627187fd-f3f0-4260-98be-301791c8e82f
+- created: null
+  downloaded: false
+  id: c60d177b-d931-4567-9da4-6534d0f3e8ba
   idx: 27
-  local_path: /home/quattro/Imágenes/backgrounds2/627187fd-f3f0-4260-98be-301791c8e82f-pexels-photo-620337.jpeg
+  local_path: null
   name: Tobi
   profile: /@pripicart
   ratio: 2921:1946
@@ -363,17 +391,17 @@
   title: Landscape Photography of Brown Mountains Surrounding Lake · Free Stock Photo
   url: https://images.pexels.com/photos/620337/pexels-photo-620337.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
-- downloaded: false
-  id: 63231134-b302-414b-8a05-88cb989fda56
+- created: null
+  downloaded: false
+  id: 5f65351e-4e48-4693-84cd-edcee8cc9b3e
   idx: 28
   local_path: null
-  name: Sindre Strøm
-  profile: /@blitzboy
-  ratio: 3844:2159
+  name: Lisa Fotios
+  profile: /@fotios-photos
+  ratio: '3:2'
   size:
-    height: 2159
-    width: 3844
-  title: Aerial Photography of Water Beside Forest during Golden Hour · Free Stock
-    Photo
-  url: https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+    height: 4000
+    width: 6000
+  title: Green Trees Under Blue and Orange Sky during Sunset · Free Stock Photo
+  url: https://images.pexels.com/photos/1107717/pexels-photo-1107717.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
