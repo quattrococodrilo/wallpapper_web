@@ -196,10 +196,10 @@
   url: https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
 - created: 2019-12-25 16:31:15.152104
-  downloaded: false
+  downloaded: true
   id: 5af68889-ffd9-4a24-a98e-4fe4898410b1
   idx: 14
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/5af68889-ffd9-4a24-a98e-4fe4898410b1.jpeg
   name: Pixabay
   profile: /@pixabay
   ratio: 200:121
@@ -208,7 +208,7 @@
     width: 2200
   title: Time Lapse Photography of Waterfalls during Sunset · Free Stock Photo
   url: https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152113
   downloaded: false
   id: fc35af3b-c7ab-4c19-b267-67b9a308ceb2
