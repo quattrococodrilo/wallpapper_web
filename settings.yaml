@@ -1,4 +1,5 @@
-- id: d878d3ea-b0fd-44b0-af25-a8e53574e417
+- font: fonts/Roboto/Roboto-Black.ttf
+  id: d878d3ea-b0fd-44b0-af25-a8e53574e417
   idx: 0
   image_params:
   - name
@@ -7,8 +8,7 @@
   - size
   - url
   - ratio
-  images_dir: /home/quattro/Imágenes/backgrounds2
-  last_update: 2019-12-22
+  images_dir: /home/quattroc/Imágenes/backgrounds2
+  last_update: 2019-12-25
   update_frecuency: 1
   url: https://www.pexels.com/search/landscape/
-  font: 'fonts/Roboto/Roboto-Black.ttf'

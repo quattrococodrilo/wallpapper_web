@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from crud_yaml.crud import CRUD
 from random import choice
-from os import path, system
+from os import path, system, makedirs
 from wand.image import Image
 from wand.drawing import Drawing
 import datetime
@@ -73,7 +73,7 @@ class Wallpapper():
                 info['used'] = False
                 info['downloaded'] = False
                 info['local_path'] = None
-                info['created'] = None
+                info['created'] = datetime.datetime.now()
 
                 if info['size'] and info['size']['width'] > info['size']['height']:
                     if 'video' not in info['title'].lower():
@@ -93,11 +93,13 @@ class Wallpapper():
 
     def calculate_aspect(self, width, height):
         """Caculate de aspect ratio.
-        Code taken from: https://gist.github.com/Integralist/4ca9ff94ea82b0e407f540540f1d8c6c"""
+        Code taken from: 
+        https://gist.github.com/Integralist/4ca9ff94ea82b0e407f540540f1d8c6c"""
         temp = 0
 
         def gcd(a, b):
-            """The GCD (greatest common divisor) is the highest number that evenly divides both width and height."""
+            """The GCD (greatest common divisor) is the highest number 
+            that evenly divides both width and height."""
             return a if b == 0 else gcd(b, a % b)
 
         if width == height:
@@ -142,20 +144,20 @@ class Wallpapper():
     def _random_image(self):
         """Return a random image"""
         not_used_images = self.db.filter(used=False)
-        return choice(not_used_images)
-        # while True:
-            # image_info = choice(not_used_images)
-            # if not image_info['used']:
-                # return image_info
+        if not_used_images:
+            return (choice(not_used_images), True)
+        return (choice(self.db.datas), False)
+        
 
     def _download_image(self, image):
         """Downloads image"""
+        dir_photos = self.settings.datas[0]['images_dir']
+        self.check_if_dir_exist(dir_photos)
         try:
             if not image['downloaded'] and not image['local_path']:
                 url = image['url'].split('?')[0]
-                name = image['id']
-                image_path = path.join(
-                    self.settings.datas[0]['images_dir'], name)
+                name = '{}.{}'.format(image['id'], url.split('.')[-1])
+                image_path = path.join(dir_photos, name)
                 print(url)
                 with open(image_path, 'wb') as img:
                     img.write(requests.get(url).content)
@@ -168,20 +170,45 @@ class Wallpapper():
             print(e)
             return False
 
-    def write_img_info(self, img_path, body):
-        with Image(filename = img_path) as img:
+    def write_img_info(self, img_path, body, crop=False):
+        """Write info (author, photo, profile) in the photo and
+        crop image to screen size"""
+        local_screen = self.screen_size()
+        print(local_screen)
+        with Image(filename=img_path) as img:
+            print('width =', img.width)
+            print('height =', img.height)
+            if crop:
+                width = local_screen['width'] if local_screen['width'] < img.width else img.width
+                height = local_screen['height'] if local_screen['height']  < img.height else img.height
+                print(width, height)
+                img.crop(
+                width= width,
+                height= height,
+                gravity='center')
+            
             with Drawing() as draw:
                 draw.font = self.settings.datas[0]['font']
-                draw.font_size = 60
+                draw.font_size = int(img.height * 0.02)
                 draw.fill_color = 'WHITE'
-                draw.text(100, img.height - 100, body)
+                draw.text(30, img.height - 30, body)
                 draw(img)
                 img.save(filename=img_path)
+    
+    def check_if_dir_exist(self, dir_photos):
+        """Check if directory existis, if not exist, 
+        creates a tree directory"""
+        if not path.isdir(dir_photos):
+            makedirs(dir_photos)
 
-    def set_as_wallpapper(self, path):
+    def set_as_wallpapper(self, img):
         """Set image as Wallpapper"""
-        if path:
+        if img['local_path']:
             system(
-                'gsettings set org.gnome.desktop.background picture-uri file://{}'.format(path))
+                'gsettings set org.gnome.desktop.background picture-uri file://{}'\
+                    .format(img['local_path'])
+            )
+            img['used'] = True
+            self.db._save()
 
     
