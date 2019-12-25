@@ -3,17 +3,12 @@
 Script que extrae una imagen de https://www.pexels.com/ según el tamaño de la pantalla y la asigna como fondo de pantalla.
 
 ### Uso
-En el archivo setWallpapper.py en la llamda a la función **run** se debe pasar como parámetro la dirección absoluta del directorio donde se guardarán las imágenes.
+En setting.py cambiar los valores de images_dir (en dónde se guardarán las imágenes) y url (la url de búsqueda de imágenes, p.j.: https://www.pexels.com/search/landscape/)
 
-```python
-. . .
-if __name__ == '__main__':
-    run('/La/dirección/de/tu/directorio')
-```
-
+Ejecutar tests.py
 
 **Notas**:
--  Por ahora solo funciona para Ubuntu 18.04 con Gnome.
+-  Por ahora solo lo he probado en Ubuntu 18.04 con Gnome.
 - Usa Python 3
 
 **TODOS**:
@@ -21,3 +16,4 @@ if __name__ == '__main__':
 - ~~Crear una base de datos en YAML para evitar que se repitan las imágenes.~~
 - Agregar soporte para Windows.
 - Pasar el script a una aplicación de línea de comandos con click
+
