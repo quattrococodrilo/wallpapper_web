@@ -77,8 +77,6 @@ class Wallpapper():
 
                 if info['size'] and info['size']['width'] > info['size']['height']:
                     if 'video' not in info['title'].lower():
-                        info['ratio'] = self.calculate_aspect(
-                            info['size']['width'], info['size']['height'])
                         if not self.db.get(title=info['title']):
                             self.db.datas.append(info)
 
@@ -170,22 +168,31 @@ class Wallpapper():
             print(e)
             return False
 
-    def write_img_info(self, img_path, body, crop=False):
+    def processor(self, img_path, body):
         """Write info (author, photo, profile) in the photo and
         crop image to screen size"""
-        local_screen = self.screen_size()
-        print(local_screen)
+        lscreen = self.screen_size()
+        
         with Image(filename=img_path) as img:
-            print('width =', img.width)
-            print('height =', img.height)
-            if crop:
-                width = local_screen['width'] if local_screen['width'] < img.width else img.width
-                height = local_screen['height'] if local_screen['height']  < img.height else img.height
-                print(width, height)
-                img.crop(
-                width= width,
-                height= height,
-                gravity='center')
+            
+            proportion = 0
+            height = 0
+            width = 0
+            if lscreen['height'] > lscreen['width']:
+                proportion = round(lscreen['height'] / lscreen['width'], 2)
+                height = img.height
+                width_calculated = int(img.height / proportion)
+                width = width_calculated if width_calculated else img.width
+            else:
+                proportion = round(lscreen['width'] / lscreen['height'], 2)
+                height_calculated = int(img.width / proportion)
+                height = height_calculated if height_calculated else img.height
+                width = img.width
+            
+            img.crop(
+            width= width,
+            height= height,
+            gravity='center')
             
             with Drawing() as draw:
                 draw.font = self.settings.datas[0]['font']

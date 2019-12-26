@@ -55,10 +55,10 @@
   url: https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
 - created: 2019-12-25 16:31:15.152003
-  downloaded: false
+  downloaded: true
   id: be94156d-0dcf-49c4-aa10-e5689f68adaf
   idx: 4
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/be94156d-0dcf-49c4-aa10-e5689f68adaf.jpeg
   name: Ian Turnell
   profile: /@samandgos
   ratio: '3:2'
@@ -67,12 +67,12 @@
     width: 3504
   title: Body of Water Between Green Leaf Trees · Free Stock Photo
   url: https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152012
-  downloaded: false
+  downloaded: true
   id: 81975b93-f923-4159-95ce-b535c10ba15e
   idx: 5
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/81975b93-f923-4159-95ce-b535c10ba15e.jpeg
   name: Pixabay
   profile: /@pixabay
   ratio: '16:9'
@@ -81,12 +81,12 @@
     width: 2000
   title: Brown Wooden Dock · Free Stock Photo
   url: https://images.pexels.com/photos/462024/pexels-photo-462024.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152022
-  downloaded: false
+  downloaded: true
   id: 5a18e4b7-78ce-4c3e-ab68-2bfdf0145df4
   idx: 6
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/5a18e4b7-78ce-4c3e-ab68-2bfdf0145df4.jpeg
   name: Pixabay
   profile: /@pixabay
   ratio: 875:597
@@ -95,12 +95,12 @@
     width: 3500
   title: View of Elephant in Water · Free Stock Photo
   url: https://images.pexels.com/photos/247431/pexels-photo-247431.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152031
-  downloaded: false
+  downloaded: true
   id: 63296b93-73a1-4d3d-8700-39fa9babb4eb
   idx: 7
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/63296b93-73a1-4d3d-8700-39fa9babb4eb.jpeg
   name: Pixabay
   profile: /@pixabay
   ratio: 647:413
@@ -109,12 +109,12 @@
     width: 2588
   title: Green Leafed Trees · Free Stock Photo
   url: https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152041
-  downloaded: false
+  downloaded: true
   id: 2c7e1f3a-6c45-4048-a553-ac04e5461883
   idx: 8
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/2c7e1f3a-6c45-4048-a553-ac04e5461883.jpeg
   name: Pixabay
   profile: /@pixabay
   ratio: 5105:2871
@@ -123,7 +123,7 @@
     width: 5105
   title: Scenic View of Sea Against Sky at Sunset · Free Stock Photo
   url: https://images.pexels.com/photos/258109/pexels-photo-258109.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152051
   downloaded: false
   id: d2909278-fc79-4794-9b18-333fa0d93689
@@ -139,10 +139,10 @@
   url: https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
 - created: 2019-12-25 16:31:15.152062
-  downloaded: false
+  downloaded: true
   id: 177cb410-fc2d-4473-8735-184cd5a88b0a
   idx: 10
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/177cb410-fc2d-4473-8735-184cd5a88b0a.jpeg
   name: Pok Rie
   profile: /@pok-rie-33563
   ratio: 3000:1999
@@ -151,7 +151,7 @@
     width: 3000
   title: Seaport during Daytime · Free Stock Photo
   url: https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152075
   downloaded: false
   id: cc4d99c8-2a88-4db4-b2eb-4c7c3e632af6
@@ -252,10 +252,10 @@
   url: https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
 - created: 2019-12-25 16:31:15.152141
-  downloaded: false
+  downloaded: true
   id: 7e0f4f29-bbb1-49fa-9c2c-7ec055bd8f53
   idx: 18
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/7e0f4f29-bbb1-49fa-9c2c-7ec055bd8f53.jpeg
   name: Pixabay
   profile: /@pixabay
   ratio: 550:367
@@ -264,7 +264,7 @@
     width: 2200
   title: Green Mountains and Flowing River · Free Stock Photo
   url: https://images.pexels.com/photos/206660/pexels-photo-206660.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152150
   downloaded: false
   id: d51758dc-38bd-41c7-b6e4-020b56a2334e
@@ -308,10 +308,10 @@
   url: https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500
   used: false
 - created: 2019-12-25 16:31:15.152181
-  downloaded: false
+  downloaded: true
   id: 77fcda9f-de11-4e9e-a724-3f5792e8aa1c
   idx: 22
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/77fcda9f-de11-4e9e-a724-3f5792e8aa1c.jpeg
   name: Ákos Szabó
   profile: /@akos-szabo-145938
   ratio: 4831:2548
@@ -320,12 +320,12 @@
     width: 4831
   title: Panoramic Photography of Green Field · Free Stock Photo
   url: https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152196
-  downloaded: false
+  downloaded: true
   id: 53340ba4-4ca7-4193-a63c-c7f2615c9122
   idx: 23
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/53340ba4-4ca7-4193-a63c-c7f2615c9122.jpeg
   name: Pixabay
   profile: /@pixabay
   ratio: 2685:1846
@@ -334,12 +334,12 @@
     width: 2685
   title: Trees Near Body of Water · Free Stock Photo
   url: https://images.pexels.com/photos/371589/pexels-photo-371589.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152206
-  downloaded: false
+  downloaded: true
   id: 7b6e529b-0711-4a2f-bf27-0ffbcaf8fb93
   idx: 24
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/7b6e529b-0711-4a2f-bf27-0ffbcaf8fb93.jpeg
   name: Pixabay
   profile: /@pixabay
   ratio: 1000:543
@@ -348,12 +348,12 @@
     width: 2000
   title: Black Mountains Under the Stars at Nighttime · Free Stock Photo
   url: https://images.pexels.com/photos/355465/pexels-photo-355465.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152216
-  downloaded: false
+  downloaded: true
   id: 3f7a0fab-9c4f-4504-92de-d6cd5503ee10
   idx: 25
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/3f7a0fab-9c4f-4504-92de-d6cd5503ee10.jpeg
   name: Pixabay
   profile: /@pixabay
   ratio: 2000:1123
@@ -362,12 +362,12 @@
     width: 2000
   title: Green Hill Near Body of Water · Free Stock Photo
   url: https://images.pexels.com/photos/462162/pexels-photo-462162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152227
-  downloaded: false
+  downloaded: true
   id: 450adff3-0384-4d1c-97cf-74022daed517
   idx: 26
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/450adff3-0384-4d1c-97cf-74022daed517.jpeg
   name: Pixabay
   profile: /@pixabay
   ratio: 401:217
@@ -376,12 +376,12 @@
     width: 2005
   title: Panoramic View of Sea Against Blue Sky · Free Stock Photo
   url: https://images.pexels.com/photos/248771/pexels-photo-248771.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152239
-  downloaded: false
+  downloaded: true
   id: 1edb9d25-9c9b-418d-ab2d-cf42cd6ed96b
   idx: 27
-  local_path: null
+  local_path: /home/quattroc/Imágenes/backgrounds2/1edb9d25-9c9b-418d-ab2d-cf42cd6ed96b.jpeg
   name: Tobi
   profile: /@pripicart
   ratio: 2921:1946
@@ -390,7 +390,7 @@
     width: 2921
   title: Landscape Photography of Brown Mountains Surrounding Lake · Free Stock Photo
   url: https://images.pexels.com/photos/620337/pexels-photo-620337.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
-  used: false
+  used: true
 - created: 2019-12-25 16:31:15.152250
   downloaded: false
   id: 092b9b18-9331-40a4-a8c4-1f276212ad6c
